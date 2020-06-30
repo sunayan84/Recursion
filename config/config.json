@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "business-form-fg-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/businessFormFg/BusinessFormFgWebPart.js",
+          "manifest": "./src/webparts/businessFormFg/BusinessFormFgWebPart.manifest.json"
+        }
+      ]
+    },
+    "business-form-fg-edit-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/businessFormFgEditForm/BusinessFormFgEditFormWebPart.js",
+          "manifest": "./src/webparts/businessFormFgEditForm/BusinessFormFgEditFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "business-form-fg-view-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/businessFormFgViewForm/BusinessFormFgViewFormWebPart.js",
+          "manifest": "./src/webparts/businessFormFgViewForm/BusinessFormFgViewFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BusinessFormFgWebPartStrings": "lib/webparts/businessFormFg/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "BusinessFormFgEditFormWebPartStrings": "lib/webparts/businessFormFgEditForm/loc/{locale}.js",
+    "BusinessFormFgViewFormWebPartStrings": "lib/webparts/businessFormFgViewForm/loc/{locale}.js"
+  }
+}

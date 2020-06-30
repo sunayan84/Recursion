@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "business-solutions-client-side-solution",
+    "id": "e0863e49-7708-4962-97c0-8b4afd1ae1a6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/business-solutions.sppkg"
+  }
+}
